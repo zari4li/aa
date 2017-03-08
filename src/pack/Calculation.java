@@ -39,6 +39,7 @@ static double Amort, Stoim_stanka, Srok_sl, Kol_prod, Stoim_mater, Stoim_kompl, 
 		else if (Index.Name_int==2) {Name="шкаф";}
 		else if (Index.Name_int==2) {Name="кровать";} 
 		else {Name="тумба";} 
+	
 		
 	}
 		public static void Smeta_sost() {/*Класс, который доступен для любого файла из пакета pack */
