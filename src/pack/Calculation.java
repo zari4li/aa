@@ -90,7 +90,7 @@ static double Amort, Stoim_stanka, Srok_sl, Kol_prod, Stoim_mater, Stoim_kompl, 
 		Itogo=Mat_zatr+Zaprl_1+Amort_1+Pr_rash_1;
 		
 		//форматированный вывод
-	    String Kol_detal_str = String.format("%.2f", Kol_detal);
+			   String Kol_detal_str = String.format("%.2f", Kol_detal);
 	    String Stoim_mater_str = String.format("%.2f", Stoim_mater_1);
 	    String Stoim_kompl_str = String.format("%.2f", Stoim_kompl_1);
 	    String Stoim_vspom_mater_str = String.format("%.2f", Stoim_vspom_mater_1);
