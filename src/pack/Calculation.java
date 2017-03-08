@@ -39,6 +39,7 @@ static double Amort, Stoim_stanka, Srok_sl, Kol_prod, Stoim_mater, Stoim_kompl, 
 		else if (Index.Name_int==2) {Name="шкаф";}
 		else if (Index.Name_int==2) {Name="кровать";} 
 		else {Name="тумба";} 
+	
 		
 	}
 		public static void Smeta_sost() {/*Класс, который доступен для любого файла из пакета pack */
@@ -89,7 +90,7 @@ static double Amort, Stoim_stanka, Srok_sl, Kol_prod, Stoim_mater, Stoim_kompl, 
 		Itogo=Mat_zatr+Zaprl_1+Amort_1+Pr_rash_1;
 		
 		//форматированный вывод
-	    String Kol_detal_str = String.format("%.2f", Kol_detal);
+			   String Kol_detal_str = String.format("%.2f", Kol_detal);
 	    String Stoim_mater_str = String.format("%.2f", Stoim_mater_1);
 	    String Stoim_kompl_str = String.format("%.2f", Stoim_kompl_1);
 	    String Stoim_vspom_mater_str = String.format("%.2f", Stoim_vspom_mater_1);
